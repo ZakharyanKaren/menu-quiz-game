@@ -188,10 +188,10 @@ const Quiz = () => {
               className="progress__bar"
               style={{ width: `${total ? ((round + 1) / total) * 100 : 0}%` }}
             />
-            <span className="progress__label">
-              {Math.min(round + 1, total)} / {total}
-            </span>
           </div>
+          <span className="progress__label">
+            {Math.min(round + 1, total)} / {total}
+          </span>
         </div>
 
         <div className="question fade-in">
